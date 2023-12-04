@@ -1,0 +1,87 @@
+.footer {
+    border: 1px black solid;
+    color: yellow;
+    text-align: center;
+    width: 100%;
+    position:fixed;
+    bottom:0;
+    right:0;
+    left:0;
+    height: auto;
+    background-color: #FF0000;
+    }
+.pageheader {
+        font-size: 40px;
+        border: 1px black solid;
+        color: white;
+        text-align: center;
+        width: 100%;
+        position:fixed;
+        top:0;
+        right:0;
+        left:0;
+        background-color: blueviolet;
+        height: auto;
+        z-index: 7777
+        }
+
+.content {
+            position: absolute;
+            width: 100%;
+            top: 150px;
+        }
+
+.pageicon {
+    width:100%;
+    height:100%;
+}
+.pageicon:hover {
+    width: 100%;
+    height: 100%;
+    transform:rotate(0.5turn)
+}
+
+#infotable {
+    border-collapse: collapse;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#contactform {
+ white-space: pre;
+    text-align: center;
+}
+
+.icon {
+    width: 10px;
+    margin-right: 5px;
+}
+
+
+@media screen and (min-width: 301px) and (max-width: 500px){
+    #Zeorymer{
+        width: 360px;
+        height: 130px;
+    }
+}   
+
+@media screen and (min-width:501px) and (max-width: 800px){
+    #Zeorymer{
+       width: 720px;
+       height: 360px;
+    }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1100px){
+    #Zeorymer{
+        width: 1080px;
+        height: 720px;
+    }
+}
+
+@media screen and (min-width: 1101px){
+    #Zeorymer{
+        width: 1500px;
+        height: 1080px;
+    }
+}

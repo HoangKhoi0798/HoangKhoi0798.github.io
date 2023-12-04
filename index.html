@@ -1,14 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
 </head>
 <body>
-    <h1>This is the main page</h1>
-    <a href="contact.html"><h2>Click here for contact infos</h2></a>
-    <a href="project.html"><h2>Click here for project infos</h2></a>
+    <header class="pageheader">
+
+        <table border="5px" style="width:100%">
+            <thead>
+            <th width="7%"><a href="#top"><image src="images/GUMGUMBOOM Icon.png" title="Back to top" class="pageicon"></image></a></th>    
+            <th width="50%">Home</th>
+            <th width="20%"><a href="project.html">Project</a></th>
+            <th width="20%"><a href="contact.html">Contact</a></th>
+            </table>
+        </thead>
+        </table>
+    </header>
+    <content class="content">
+    <h1>Welcome to my homepage.</h1>
+    <h2>This is a site for class assignment<image src="images/Symbol.png"></image>Navigate pages with the bar on top</h2>
+    <br><br>
+    <h1>Content Introduction</h1>
+    <div class="introduction">
+        <div id="homeinfo">
+        <h1>HOME</h1>
+        <h2>(You are here)</h2>
+        <p>This is the homepage. It is the default landing site.
+            <br>You can find various basic information here.
+        </p>    
+        </div>
+        <div id="projectinfo">
+        <h1>PROJECT</h1>
+        <p>This page contains some coding tasks I have done.
+            <br>To move to this site,<a href="project.html">click here</a>
+            <br>or use the navigation button on top.
+        </p>
+        </div>
+        <div id="contactinfo">
+        <h1>CONTACT</h1>
+        <p>This page contains my contact information,
+            <br>a contact form and a music video.
+            <br>Move to this site with <a href="contact.html">this</a>
+            <br>or use the navigation bar on top.
+        </p>
+        </div>
+    </div>
+    <br><br><br><br>
+    <div class="self">
+        <h1>About myself</h1>
+        <p>Hello, I'm Hoang Khoi Gia Nguyen. I'm a first year at RTC Technical College. <br>
+           Follow my birthplace tradition, my name is written as Nguyen Gia Hoang Khoi, so my given name is Khoi and my family name is Nguyen.<br>
+           I had no prior experience and is still new to coding. I'm trying to get some experience to better my living situation.<br>
+           Thanks for reading. Look forward to the future.
+        </p>
+    </div>
+    
+    <div id="endofpage">
+        <h1>You reached the end of the page.</h1>
+        <h2>Click the symbol on the top right to return to the top of the page.</h2>
+    </div>
+</content>
+    <footer class="footer"> © 2023, Hoang Khoi Gia Nguyen</footer>
 </body>
 </html>

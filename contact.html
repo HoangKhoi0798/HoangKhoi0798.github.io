@@ -1,14 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
 </head>
 <body>
-    <h1>This is the page for contact information</h1>
-    <h2>For project information, <a href="project.html">click here</a></h2>
-    <p><a href="index.html">Return to main page</a></p>
+    <header class="pageheader">
+
+        <table border="5px" style="width:100%">
+            <thead>
+                <th width="7%"><a href="#top"><image src="images/GUMGUMBOOM Icon.png" title="Back to top" class="pageicon"></image></a></th>      
+            <th width="20%"><a href="index.html">Home</a></th>
+            <th width="20%"><a href="project.html">Project</a></th>
+            <th width="50%">Contact</th>
+            </table>
+        </thead>
+        </table>
+    </header>
+    <content class="content">
+    <table border="1px" id="infotable">
+        <thead>
+            <tr>
+            <th><image src="images/email.png" class="icon"></image>Email</th>
+            <th><image src="images/Phone.png" class="icon"></image>Phone</th>
+            <th><image src="images/website.png" class="icon"></image>Site</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>nkhoi0711@gmail.com</td>
+            <td>425-517-7178</td>
+            <td><a href="index.html">Student Page</a></td>
+            </tr>
+        </tbody>
+    </table>
+    <form action="/submit.html" method="get" id="contactform"><h1>CONTACT FORM</h1>
+        <label for="fullname">Your full name:</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Given - Middle - Family">
+        <label for="emailform">Your email:</label>
+        <input type="text" id="emailform" name="emailform" placeholder="Ex. example@gmail.com">
+        <label for="messagefield">Message</label>
+        <textarea rows="20" cols="100" id="messagefield" name="messagefield" placeholder="Your text here"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+      <center><iframe id="Zeorymer" width="560" height="315" src="https://www.youtube.com/embed/uDMm5j092sI?autoplay=1&loop=1&si=LhztbS6TzFGx2ugs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center> 
+    <br><br><br><br>
+      <footer class="footer"> © 2023, Hoang Khoi Gia Nguyen</footer>
 </body>
 </html>
